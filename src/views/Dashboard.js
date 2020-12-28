@@ -4,7 +4,7 @@ import AppShell from "../components/app-shell"
 const Dashboard = () => {
   return (
     <AppShell>
-      <h1>Dashboard</h1>
+      
     </AppShell>
   )
 }

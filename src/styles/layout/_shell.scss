@@ -3,3 +3,10 @@
   width: 100vw;
   background-color: $near-black;
 }
+
+.app-shell-header {
+  padding: 0 20px;
+  color: white;
+  font-size: clamp(40px, 3vw, 60px);
+  font-family: "neutronium.medium", sans-serif;
+}
