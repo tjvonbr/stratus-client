@@ -1,5 +1,17 @@
 .app-shell {
+  position: relative;
   height: 100vh;
   width: 100vw;
   background-color: $near-black;
+}
+
+.app-shell-header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0 15px;
+  color: white;
+  font-size: clamp(40px, 3vw, 60px);
+  font-family: "neutronium.medium", sans-serif;
+  letter-spacing: 3px;
 }
