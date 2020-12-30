@@ -1,0 +1,21 @@
+.user-container {
+  width: auto;
+  display: flex;
+}
+
+.user-container div {
+  margin-left: 10px;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+
+  &:hover {
+    cursor: pointer;
+  }
+}

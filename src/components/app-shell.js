@@ -1,9 +1,10 @@
 import * as React from "react"
+import Navbar from "./navbar"
 
 const AppShell = ({ children }) => {
   return (
     <div className="app-shell">
-      <h1 className="app-shell-header">layer</h1>
+      <Navbar />
       {children}
     </div>
   )

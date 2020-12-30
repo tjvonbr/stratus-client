@@ -12,7 +12,7 @@ const Dashboard = () => {
           <Metric number={43} title="Lean Mass" unit="%" />
           <Metric number={21} title="BMI" />
           <Metric number={43} title="Heart Rate" unit="BPM" />
-          <Metric number={15.4} title={"Body Fat"} unit="%" />
+          <Metric number={15.4} title="Body Fat" unit="%" />
         </div>
       </div>
     </AppShell>
