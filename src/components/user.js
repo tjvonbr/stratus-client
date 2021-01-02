@@ -1,11 +1,12 @@
 import * as React from "react"
-import { FaUser } from "react-icons/fa"
-
 
 const User = () => {
   return (
     <div className="user-container">
-      <FaUser color="#0ac3d5" size={20} />
+      <svg height="30" width="80">
+        <polygon points="0,0 0,15 80,80 80,0" fill="#0ac3d5" />
+        <text x="50%" y="50%" color="black">User</text>
+      </svg>
       <div className="user">
         Trevor Von Bruenchenhein
       </div>
